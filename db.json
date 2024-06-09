@@ -1,0 +1,76 @@
+{
+  "userreviews": [
+    {
+      "name": "John Doe",
+      "review": "I absolutely love my custom phone case from Custom Cases! The quality is top-notch, and it fits my phone perfectly. Highly recommended!",
+      "image": "http://thispix.com/wp-content/uploads/2015/06/Edited-TSP_4054-1-300x300.jpg",
+      "rating": 5,
+      "id": 1
+    },
+    {
+      "name": "Jane Smith",
+      "review": "The design options are fantastic, and I found exactly what I wanted. The case feels durable and looks great. Will definitely order again.",
+      "image": "http://thispix.com/wp-content/uploads/2015/06/Edit-7576-1-300x300.jpg",
+      "rating": 4,
+      "id": 2
+    },
+    {
+      "name": "Michael Johnson",
+      "review": "Great service and fast delivery! The custom design I chose turned out better than I expected. The case is sturdy and stylish.",
+      "image": "http://thispix.com/wp-content/uploads/2015/06/Edited-TSP_9613-1-300x300.jpg",
+      "rating": 5,
+      "id": 3
+    },
+    {
+      "name": "Emily Davis",
+      "review": "I like the variety of designs available, but the case I received had a slight misalignment. Still, it's a good product overall.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwgu1A5zgPSvfE83nurkuzNEoXs9DMNr8Ww&s",
+      "rating": 3,
+      "id": 1
+    },
+    {
+      "name": "Chris Brown",
+      "review": "Amazing quality and the customization process was easy. The case provides good protection for my phone. Very satisfied with my purchase!",
+      "image": "http://thispix.com/wp-content/uploads/2015/06/EDited-TSP_3878-1-300x300.jpg",
+      "rating": 5,
+      "id": 4
+    },
+    {
+      "name": "Jessica Wilson",
+      "review": "The case is beautiful, but I wish there were more color options. The material feels nice and it fits well on my phone.",
+      "image": "https://wallpapers.com/images/high/professional-profile-pictures-1500-x-2100-bvjgzg0cwa8r051t.webp",
+      "rating": 4,
+      "id": 5
+    }
+  ],
+  "casedemos": [
+    {
+      "id": "1",
+      "imageUrl": "https://i.ibb.co/KhxSb1B/In-Shot-20240608-130226931.png"
+    },
+    {
+      "id": "2",
+      "imageUrl": "https://i.ibb.co/KmC2bSC/In-Shot-20240608-130355750.png"
+    },
+    {
+      "id": "4",
+      "imageUrl": "https://i.ibb.co/KV1TqcG/In-Shot-20240608-130614848.png"
+    },
+    {
+      "id": "5",
+      "imageUrl": "https://i.ibb.co/LQzc2mt/In-Shot-20240608-130628649.png"
+    },
+    {
+      "id": "6",
+      "imageUrl": "https://i.ibb.co/zNN8tzT/In-Shot-20240608-130638975.png"
+    },
+    {
+      "id": "7",
+      "imageUrl": "https://i.ibb.co/hWGYg51/In-Shot-20240608-130655266.png"
+    },
+    {
+      "id": "8",
+      "imageUrl": "https://i.ibb.co/m0WwVH8/In-Shot-20240608-130707917.png"
+    }
+  ]
+}
