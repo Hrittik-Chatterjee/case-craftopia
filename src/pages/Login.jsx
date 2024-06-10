@@ -26,6 +26,11 @@ const Login = () => {
   }, [user, from, navigate]);
   return (
     <section className="h-screen">
+      <h1 className="text-3xl font-bold text-center">
+        Please Login
+        <span className="bg-primary text-white   mx-3 my-2 px-3">Login</span>
+        to create customize
+      </h1>
       <div className="container h-full px-6 py-24">
         <div className="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between">
           {/* <!-- Left column container with background--> */}
@@ -72,11 +77,14 @@ const Login = () => {
                 </div>
 
                 {/* <!-- Forgot password link --> */}
-                <Link
-                  href="#!"
-                  className="text-primary transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
-                >
+                <Link href="#!" className="text-primary text-sm">
                   Forgot password?
+                </Link>
+                <Link
+                  className="text-sm font-semibold text-green-500 "
+                  to="/signup"
+                >
+                  New here? Sign UP
                 </Link>
               </div>
 

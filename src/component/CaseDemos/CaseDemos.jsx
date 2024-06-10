@@ -5,7 +5,7 @@ const CaseDemos = () => {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/casedemos")
+    fetch("https://case-craftopia-server.onrender.com/casedemos")
       .then((response) => response.json())
       .then((data) => setImages(data))
       .catch((error) => console.error("Error fetching data:", error));
@@ -41,7 +41,10 @@ const CaseDemos = () => {
       <div className="no-scrollbar w-1/2 flex-1 overflow-y-scroll p-20">
         <div className=" mb-5">
           {images.map((image) => (
-            <div className=" w-72   h-full overflow-hidden my-2" key={image.id}>
+            <div
+              className=" w-72   h-full overflow-hidden my-2"
+              key={image._id}
+            >
               <img className="object-cover " src={image.imageUrl} alt="" />
             </div>
           ))}

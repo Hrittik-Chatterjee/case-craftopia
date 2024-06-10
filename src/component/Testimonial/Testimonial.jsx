@@ -6,7 +6,7 @@ const Testimonial = () => {
   const [reviewsData, setReviewsData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/userreviews")
+    fetch("https://case-craftopia-server.onrender.com/userreviews")
       .then((response) => response.json())
       .then((data) => setReviewsData(data))
       .catch((error) => console.error("Error fetching data:", error));
@@ -21,7 +21,7 @@ const Testimonial = () => {
       </h1>
       <div className="grid grid-cols-3 gap-6 mt-12">
         {reviewsData.slice(0, 3).map((reviewData) => (
-          <TestimonialSingleCard key={reviewData.id} reviewData={reviewData} />
+          <TestimonialSingleCard key={reviewData._id} reviewData={reviewData} />
         ))}
       </div>
     </div>

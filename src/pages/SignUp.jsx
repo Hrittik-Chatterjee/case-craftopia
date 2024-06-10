@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import GoogleLogin from "../component/Login-Registration/GoogleLogin";
 import useAuth from "../hooks/useAuth";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const SignUp = () => {
   const [passwordMatch, setPasswordMatch] = useState(true);
@@ -36,12 +36,17 @@ const SignUp = () => {
   }, [user, from, navigate]);
   return (
     <section className="h-screen">
+      <h1 className="text-3xl font-bold text-center">
+        Please
+        <span className="bg-warning text-white   mx-3 my-2 px-3">Sign up</span>
+        to create customize phone case
+      </h1>
       <div className="container h-full px-6 py-24">
         <div className="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between">
           {/* <!-- Left column container with background--> */}
           <div className="mb-12 md:mb-0 md:w-8/12 lg:w-6/12">
             <img
-              src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
+              src="https://i.pinimg.com/736x/63/77/36/63773689c5405621be6336d5e91b5b61.jpg"
               className="w-full"
               alt="Phone image"
             />
@@ -72,11 +77,17 @@ const SignUp = () => {
 
               <div className="form-control mt-6">
                 <input
-                  className="inline-block w-full rounded bg-primary px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white"
+                  className="inline-block w-full rounded bg-warning px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white"
                   type="submit"
                   value="Register"
                 />
               </div>
+              <Link
+                className="text-sm  font-semibold text-yellow-700 my-8"
+                to="/login"
+              >
+                Already Have an account? Login
+              </Link>
 
               {!passwordMatch && (
                 <div className="my-2">
