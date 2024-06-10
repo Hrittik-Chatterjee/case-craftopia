@@ -32,7 +32,7 @@ const Navbar = () => {
               <Link to="/createcase">Create Custom Case</Link>
             </li>
             <li>
-              <Link to="/ourproducts">Our Products</Link>
+              <Link to="/productdemos">Product Demos</Link>
             </li>
             {user && (
               <>

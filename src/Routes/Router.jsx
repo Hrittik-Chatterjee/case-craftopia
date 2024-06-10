@@ -8,6 +8,7 @@ import SignUp from "../pages/SignUp";
 import PrivateRoute from "./private/PrivateRoute";
 // import CreateCase from "../pages/CreateCase";
 import Casecode from "../pages/Casecode";
+import ProductDemos from "../pages/ProductDemos";
 
 export const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ export const router = createBrowserRouter([
       {
         path: "/signup",
         element: <SignUp />,
+      },
+      {
+        path: "productdemos",
+        element: <ProductDemos />,
       },
       // {
       //   path: "/createcase",
