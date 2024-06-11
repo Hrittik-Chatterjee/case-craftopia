@@ -6,8 +6,8 @@ import About from "../pages/About";
 import Login from "../pages/Login";
 import SignUp from "../pages/SignUp";
 import PrivateRoute from "./private/PrivateRoute";
-// import CreateCase from "../pages/CreateCase";
-import Casecode from "../pages/Casecode";
+
+import CreateCase from "../pages/CreateCase";
 import ProductDemos from "../pages/ProductDemos";
 
 export const router = createBrowserRouter([
@@ -47,7 +47,7 @@ export const router = createBrowserRouter([
         path: "/createcase",
         element: (
           <PrivateRoute>
-            <Casecode />
+            <CreateCase />
           </PrivateRoute>
         ),
       },

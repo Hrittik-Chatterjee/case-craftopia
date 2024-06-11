@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex-1">
           <img className="w-[100px] h-80px]" src={"/caselogo1.png"} alt="" />
         </div>
-        <div className="flex-none">
+        <div className="flex-none ">
           <ul className="menu menu-horizontal px-1">
             <li>
               <Link to="/">Home</Link>

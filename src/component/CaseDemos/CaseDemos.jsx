@@ -12,9 +12,9 @@ const CaseDemos = () => {
   }, []);
 
   return (
-    <div className="flex h-screen my-12 bg-slate-600 rounded-xl">
+    <div className="flex h-screen my-12 bg-slate-600 rounded-xl ">
       {/* Left Side - Sticky Card */}
-      <div className="flex flex-auto  w-8 p-5 sticky top-0  bg-black rounded-xl justify-center items-center">
+      <div className=" flex-auto  w-8 p-5 sticky top-0  bg-black rounded-xl justify-center items-center hidden md:block lg:block">
         <div className="bg-warning p-20 shadow-md rounded-lg">
           <h1 className=" text-4xl font-bold mt-4 ">
             Personalize Your Device with Our Custom
@@ -38,7 +38,13 @@ const CaseDemos = () => {
       </div>
 
       {/* Right Side - Scrollable Cards */}
+
       <div className="no-scrollbar w-1/2 flex-1 overflow-y-scroll p-20">
+        <div className="block sm:hidden">
+          <h1 className="text-center text-warning font-bold text-xl">
+            Some Demo Of Our Customers Customized Phone Cases
+          </h1>
+        </div>
         <div className=" mb-5">
           {images.map((image) => (
             <div
@@ -51,12 +57,12 @@ const CaseDemos = () => {
         </div>
 
         {/* Content beneath the cards */}
-        <div className="bg-warning p-20 shadow-md rounded-lg">
-          <p className="text-sm  font-semibold">
+        <div className="md:bg-warning lg:bg-warning md:p-20 ld:p-20 shadow-md rounded-lg">
+          <p className="text-sm  font-semibold hidden md:block sm:block">
             Create Your Own Imangination or Keep your catured memories always
             with you
           </p>
-          <Link className="btn btn-outline my-3 text-white bg-slate-600 hover:bg-black text-center">
+          <Link className="btn btn-outline my-3 text-white lg:bg-slate-600 md:bg-slate-600 bg-warning hover:bg-black text-center">
             See more ...
           </Link>
         </div>

@@ -35,7 +35,7 @@ const SignUp = () => {
     }
   }, [user, from, navigate]);
   return (
-    <section className="h-screen">
+    <section className="h-screen ">
       <h1 className="text-3xl font-bold text-center">
         Please
         <span className="bg-warning text-white   mx-3 my-2 px-3">Sign up</span>
@@ -44,7 +44,7 @@ const SignUp = () => {
       <div className="container h-full px-6 py-24">
         <div className="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between">
           {/* <!-- Left column container with background--> */}
-          <div className="mb-12 md:mb-0 md:w-8/12 lg:w-6/12">
+          <div className="h-72 -mt-48    mb-16 md:w-8/12 lg:w-6/12 ">
             <img
               src="https://i.pinimg.com/736x/63/77/36/63773689c5405621be6336d5e91b5b61.jpg"
               className="w-full"
@@ -53,22 +53,22 @@ const SignUp = () => {
           </div>
 
           {/* <!-- Right column container with form --> */}
-          <div className="md:w-8/12 lg:ml-6 lg:w-5/12">
+          <div className="md:w-8/12 lg:ml-6 lg:w-5/12  mt-14">
             <form onSubmit={handleSubmit}>
               <input
-                className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded"
+                className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded mb-2"
                 type="text"
                 placeholder="Email Address"
                 name="email"
               />
               <input
-                className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded my-8"
+                className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded mb-2"
                 type="password"
                 placeholder="Password"
                 name="password"
               />
               <input
-                className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded my-8"
+                className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded mb-2"
                 type="password"
                 placeholder="Confirm Password"
                 name="confirm_password"

@@ -20,9 +20,9 @@ const ProductDemos = () => {
   }, []);
   return (
     <div>
-      <h1 className=" text-4xl font-bold mt-4 text-center my-8">
+      <h1 className=" text-xl font-bold lg:text-6xl md:text-6xl text-center lg:text-left md:text-left">
         Some of our Product demos Customized By Our
-        <span className="bg-slate-600 text-white   mx-3 my-2 px-3">
+        <span className="bg-slate-600 text-white text-xl  md:text-4xl lg:text-4xl mx-3 my-2 px-3">
           Customers
         </span>
       </h1>
@@ -30,7 +30,7 @@ const ProductDemos = () => {
         effect={"cards"}
         grabCursor={true}
         modules={[EffectCards]}
-        className=" w-60 h-80"
+        className=" w-60 h-80 mt-6"
       >
         {images.map((image) => (
           <SwiperSlide
