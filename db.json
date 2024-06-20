@@ -1,62 +1,44 @@
 {
-  "userreviews": [
+  "shoes": [
     {
-      "name": "John Doe",
-      "review": "I absolutely love my custom phone case from Custom Cases! The quality is top-notch, and it fits my phone perfectly. Highly recommended!",
-      "image": "http://thispix.com/wp-content/uploads/2015/06/Edited-TSP_4054-1-300x300.jpg",
-      "rating": 5
+      "id": "1",
+      "title": "Air Max 270",
+      "brand": "Nike",
+      "price": "160",
+      "description": "The Nike Air Max 270 combines modern comfort with a throwback style inspired by the Air Max 180 and Air Max 93.",
+      "image_url": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1654.jpg?t=st=1716454923~exp=1716458523~hmac=b92da332b8a1f96366f25dffb2f1ece13d842e4afe9417b21e94e4009f93b09c&w=1480"
     },
     {
-      "name": "Jane Smith",
-      "review": "The design options are fantastic, and I found exactly what I wanted. The case feels durable and looks great. Will definitely order again.",
-      "image": "http://thispix.com/wp-content/uploads/2015/06/Edit-7576-1-300x300.jpg",
-      "rating": 4
+      "id": "2",
+      "title": "UltraBoost 21",
+      "brand": "Adidas",
+      "price": 180,
+      "description": "The Adidas UltraBoost 21 features a bold new design with an improved Boost midsole for ultimate comfort and energy return.",
+      "image_url": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1610.jpg?t=st=1716454855~exp=1716458455~hmac=7bbba604387bb3447eb82633eaf611178ba651580f20fd9d4a5610fa1c6bbd40&w=1480"
     },
     {
-      "name": "Michael Johnson",
-      "review": "Great service and fast delivery! The custom design I chose turned out better than I expected. The case is sturdy and stylish.",
-      "image": "http://thispix.com/wp-content/uploads/2015/06/Edited-TSP_9613-1-300x300.jpg",
-      "rating": 5
+      "id": "3",
+      "title": "Classic Leather",
+      "brand": "Reebok",
+      "price": 75,
+      "description": "Reebok's Classic Leather sneakers are timeless icons, offering everyday comfort and a sleek look with their soft leather upper.",
+      "image_url": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1659.jpg?t=st=1716454935~exp=1716458535~hmac=6e3b9b287577c5006087b1d65aa8d14583b60fb12f383e77c2563e3262aa46ce&w=1480"
     },
     {
-      "name": "Emily Davis",
-      "review": "I like the variety of designs available, but the case I received had a slight misalignment. Still, it's a good product overall.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwgu1A5zgPSvfE83nurkuzNEoXs9DMNr8Ww&s"
+      "id": "4",
+      "title": "Gel-Kayano 27",
+      "brand": "ASICS",
+      "price": 160,
+      "description": "The ASICS Gel-Kayano 27 provides premium stability and cushioning, perfect for overpronators seeking a smooth, comfortable run.",
+      "image_url": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1690.jpg?t=st=1716454980~exp=1716458580~hmac=e037656587873c5960eb058f5bcc654f6d7ac61b6b9fd539d05b6a91b08ac6bf&w=1480"
     },
     {
-      "name": "Chris Brown",
-      "review": "Amazing quality and the customization process was easy. The case provides good protection for my phone. Very satisfied with my purchase!",
-      "image": "http://thispix.com/wp-content/uploads/2015/06/EDited-TSP_3878-1-300x300.jpg",
-      "rating": 5
-    },
-    {
-      "name": "Jessica Wilson",
-      "review": "The case is beautiful, but I wish there were more color options. The material feels nice and it fits well on my phone.",
-      "image": "https://wallpapers.com/images/high/professional-profile-pictures-1500-x-2100-bvjgzg0cwa8r051t.webp",
-      "rating": 4
-    }
-  ],
-  "casedemos": [
-    {
-      "imageUrl": "https://i.ibb.co/KhxSb1B/In-Shot-20240608-130226931.png"
-    },
-    {
-      "imageUrl": "https://i.ibb.co/KmC2bSC/In-Shot-20240608-130355750.png"
-    },
-    {
-      "imageUrl": "https://i.ibb.co/KV1TqcG/In-Shot-20240608-130614848.png"
-    },
-    {
-      "imageUrl": "https://i.ibb.co/LQzc2mt/In-Shot-20240608-130628649.png"
-    },
-    {
-      "imageUrl": "https://i.ibb.co/zNN8tzT/In-Shot-20240608-130638975.png"
-    },
-    {
-      "imageUrl": "https://i.ibb.co/hWGYg51/In-Shot-20240608-130655266.png"
-    },
-    {
-      "imageUrl": "https://i.ibb.co/m0WwVH8/In-Shot-20240608-130707917.png"
+      "id": "5",
+      "title": "Chuck Taylor All Star",
+      "brand": "Converse",
+      "price": 55,
+      "description": "Converse Chuck Taylor All Star sneakers are an all-time classic, offering a durable canvas upper and the iconic rubber toe cap.",
+      "image_url": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1652.jpg?t=st=1716455007~exp=1716458607~hmac=af9444d4ad6e512ec5536161b170df2e38eb9e88746863bf39c538aff9e2d986&w=1480"
     }
   ]
 }
